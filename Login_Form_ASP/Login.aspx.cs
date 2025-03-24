@@ -26,7 +26,7 @@ namespace Login_Form_ASP
 
             SqlConnection con = new SqlConnection(cs);
 
-            string query = "Select * from login where username =@user and password=@pass";
+            string query = "Select * from Signup where username =@user and password=@pass";
 
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@user",UserTextBox.Text);

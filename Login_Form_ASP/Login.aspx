@@ -18,6 +18,9 @@
             text-align:center;
             font-size:30px;
         }
+        #registerLink{
+            text-align:center;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +50,11 @@
                 <td class="auto-style2">&nbsp;</td>
                 <td>
                     <asp:Button ID="LoginButton" runat="server" Text="LOGIN" Width="118px" OnClick="LoginButton_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td id="registerLink" class="auto-style2" colspan="2">
+                    <a href="Register.aspx">Not Registered yet? Click Here</a>
                 </td>
             </tr>
         </table>
